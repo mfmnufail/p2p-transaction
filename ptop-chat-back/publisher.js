@@ -8,6 +8,8 @@ var swarm = topology(address,peers);
 var streams = streamSet()
 var received = {}
 
+const {rpc}  = require("./network")
+
 class PubNub {
     constructor() {
     
